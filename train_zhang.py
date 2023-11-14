@@ -13,6 +13,7 @@ from PIL import Image
 from tqdm import tqdm
 
 sys.path.append(r"/cs/labs/yweiss/nimrod.kremer/codes/mobileye/antialiased-cnns")
+sys.path.append(r"/homes/nimrodkr/repos/py/me/testing/antialiased-cnns")
 import antialiased_cnns
 
 # Custom dataset class

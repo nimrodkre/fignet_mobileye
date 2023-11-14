@@ -3,7 +3,7 @@
 #SBATCH --time=1-0
 #SBATCH --mail-type=END
 #SBATCH --mail-user=nimrod.kremer
-#SBATCH --output=/cs/labs/yweiss/nimrod.kremer/tmp/fgnet_train.out
+#SBATCH --output=/cs/labs/yweiss/nimrod.kremer/tmp/resnet_fgnet_train.out
 #SBATCH --gres=gpu:1,vmem:16gb
 #SBATCH --requeue
 cd /cs/labs/yweiss/nimrod.kremer/codes/truly_invariant_cnn
