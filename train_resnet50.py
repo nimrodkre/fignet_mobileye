@@ -118,7 +118,7 @@ for epoch in tqdm(range(num_epochs)):
         best_model_wts = model.state_dict().copy()
 
 # Save the best model
-torch.save(best_model_wts, 'r/cs/labs/yweiss/nimrod.kremer/codes/mobileye/fignet_mobileye/resnet_best_model.pth')
+torch.save(best_model_wts, '/cs/labs/yweiss/nimrod.kremer/codes/mobileye/fignet_mobileye/resnet_best_model.pth')
 print("saved model")
 # Plotting the graph
 plt.figure(figsize=(10, 6))
