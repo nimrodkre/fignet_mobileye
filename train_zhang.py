@@ -124,8 +124,8 @@ for epoch in tqdm(range(num_epochs)):
         best_model_wts = model.state_dict().copy()
 
 # Save the best model
-torch.save(best_model_wts, 'zhange_best_model.pth')
-
+torch.save(best_model_wts, '/cs/labs/yweiss/nimrod.kremer/codes/mobileye/fignet_mobileye/zhange_best_model.pth')
+print("saved")
 # Plotting the graph
 plt.figure(figsize=(10, 6))
 plt.plot(range(1, num_epochs + 1), loss_per_epoch, marker='o', color='b')
@@ -133,5 +133,6 @@ plt.title('Average Loss per Epoch')
 plt.xlabel('Epoch')
 plt.ylabel('Average Loss')
 plt.grid(True)
-plt.savefig('zhange_loss_per_epoch.pdf')
+plt.savefig('/cs/labs/yweiss/nimrod.kremer/codes/mobileye/fignet_mobileye/zhange_loss_per_epoch.pdf')
+print("saved error")
 plt.show()
