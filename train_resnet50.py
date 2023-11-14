@@ -46,7 +46,7 @@ transform = transforms.Compose([
 ])
 
 # Load dataset
-dataset = AgeDataset('/homes/nimrodkr/datasets/fgnet/train', transform=transform)
+dataset = AgeDataset('/cs/labs/yweiss/nimrod.kremer/datasets/fignet/train', transform=transform)
 
 # Split data
 train_size = int(0.8 * len(dataset))

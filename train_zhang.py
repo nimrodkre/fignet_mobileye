@@ -12,7 +12,7 @@ from torch.utils.data import Dataset
 from PIL import Image
 from tqdm import tqdm
 
-sys.path.append(r"/homes/nimrodkr/repos/py/me/testing/antialiased-cnns")
+sys.path.append(r"/cs/labs/yweiss/nimrod.kremer/codes/mobileye/antialiased-cnns")
 import antialiased_cnns
 
 # Custom dataset class
@@ -49,7 +49,7 @@ transform = transforms.Compose([
 ])
 
 # Load dataset
-dataset = AgeDataset('/homes/nimrodkr/datasets/fgnet/train', transform=transform)
+dataset = AgeDataset('/cs/labs/yweiss/nimrod.kremer/datasets/fignet/train', transform=transform)
 
 # Split data
 train_size = int(0.8 * len(dataset))
