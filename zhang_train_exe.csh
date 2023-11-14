@@ -8,4 +8,5 @@
 #SBATCH --requeue
 cd /cs/labs/yweiss/nimrod.kremer/codes/truly_invariant_cnn
 source /cs/labs/yweiss/nimrod.kremer/venv/tsinv/bin/activate.csh
-python /cs/labs/yweiss/nimrod.kremer/codes/mobileye/fgnet/train.py
+python /cs/labs/yweiss/nimrod.kremer/codes/mobileye/fignet_mobileye/train_zhang.py
+
